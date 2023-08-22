@@ -1,0 +1,71 @@
+body{
+    width: 450px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+
+.list li:first-child{
+    background-color: black;
+}
+.list li:nth-child(2){
+    background-color: silver;
+}
+.list li:nth-child(3){
+    background-color: gray;
+}
+.list li:nth-child(4){
+    background-color: #3498db;
+}
+.list li:nth-child(5){
+    background-color:  #800000;
+}
+.list li:nth-child(6){
+    background-color: red;
+}
+.list li:nth-child(7){
+    background-color: purple;
+    }
+.list li:nth-child(8){
+    background-color: #FF00FF;
+}
+.list li:nth-child(9){
+background-color: green;
+}
+.list li:nth-child(10){
+    background-color: lime;
+}
+.list li:nth-child(11){
+    background-color: olive;
+    }
+.list li:nth-child(12){
+    background-color: yellow;
+}
+.list li:nth-child(13){
+    background-color: navy;
+}
+.list li:nth-child(14){
+    background-color: blue;
+}
+.list li:nth-child(15){
+    background-color: teal;
+}
+.list li:last-child{
+    background-color: aqua;
+}
+
+
+.list li{
+    font-size: 20;
+    font-family: sans-serif;
+    cursor: pointer;
+    list-style-position: inside;
+    padding: 15px;
+    color: #fff;
+    transition: all ease-in .3s;
+   }
+
+.list li:hover{
+    background-color: #fff;
+    color: black;
+}
